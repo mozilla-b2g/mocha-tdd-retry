@@ -1,0 +1,21 @@
+{
+  "name": "mocha-tdd-retry",
+  "version": "0.0.1",
+  "author": "The Gaia Team <dev-gaia@lists.mozilla.org>",
+  "description": "Fugly thing that uses other fugly thing to achieve questionable goal.",
+  "license": "MPLv2",
+  "main": "index.js",
+
+  "dependencies": {
+    "chai": "1.10.0",
+    "mocha-retry": "0.0.9"
+  },
+
+  "devDependencies": {
+    "mocha": "1.21.5"
+  },
+
+  "scripts": {
+    "test": "make test"
+  }
+}
