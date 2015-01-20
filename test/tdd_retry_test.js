@@ -8,18 +8,18 @@ suite('tdd retry', function() {
   });
 
   suiteTeardown(function() {
-    assert.operator(x++, '>', 4);
+    assert.operator(x++, '>', 8);
   });
 
   setup(function() {
-    assert.operator(x++, '>', 1);
+    assert.operator(x++, '>', 2);
   });
 
   teardown(function() {
-    assert.operator(x++, '>', 3);
+    assert.operator(x++, '>', 6);
   });
 
   test('should eventually pass', function() {
-    assert.operator(x++, '>', 2);
+    assert.operator(x++, '>', 4);
   });
 });
